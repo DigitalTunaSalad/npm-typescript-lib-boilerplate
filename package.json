@@ -1,0 +1,32 @@
+{
+  "name": "npm-typescript-lib-boilerplate",
+  "version": "0.0.1",
+  "description": "Template",
+  "scripts": {
+    "build": "webpack",
+    "test": "karma start --browsers PhantomJS --no-auto-watch --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalTunaSalad/npm-typescript-lib-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalTunaSalad/npm-typescript-lib-boilerplate/issues"
+  },
+  "homepage": "https://github.com/DigitalTunaSalad/npm-typescript-lib-boilerplate#readme",
+  "devDependencies": {
+    "dts-bundle": "^0.7.2",
+    "@types/jasmine": "^2.5.48",
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.3",
+    "phantomjs-prebuilt": "^2.1.14",
+    "awesome-typescript-loader": "^3.1.3",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  }
+}
